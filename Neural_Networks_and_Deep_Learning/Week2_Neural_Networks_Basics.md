@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js? 
+config=TeX-MML-AM_CHTML"
+</script>
 # WEEK2: Neural Networks Basics
 
 ## Logistic Regression as a Neural Network
@@ -14,12 +18,12 @@
 
 #### Let's now lay out some of the notation that we'll use throughout the rest of this course. 
 
-* `$(x,y)$` :represent a single training example:
+* $(x,y)$ :represent a single training example:
     * x  --> *x-dimensional feature vector*
     * y  --> *label* (either 0 or 1).
 * `$m$`: the number of training samples.
 
-* The training sets will be written (`$x_1, y_1$`): input and output for your first training example 
+* The training sets will be written ($x_1, y_1$): input and output for your first training example 
 * ($x_2, y_2$) for the second training example up to ($xm, ym$) which is your last training example.
 
 
