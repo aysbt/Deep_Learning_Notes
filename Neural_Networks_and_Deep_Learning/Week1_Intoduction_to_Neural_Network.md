@@ -50,3 +50,23 @@
 * **Structured data** is like the databases and tables.
 * **Unstructured data** is like images, video, audio, and text.
 * Structured data gives more money because companies relies on prediction on its big data.
+
+## Why is Deep Learning taking off?
+
+
+<img src='image/Fig4.png' width="800" height="400"/>
+
+* Why is deep learning certainly working so well...
+* Let's answer this question with marsan question: we plot a figure
+    * horizontal axis shows the amount of data we have for a task
+    * vertical axis shows the performance on above learning algorithms: *such as*
+
+        * support vector machine or logistic regression as a function of the amount of data: performance improves for a while as you add more data but after a while the performance you know pretty much plateaus 
+
+        * small neural net can perform as Linear regression or SVM (Support vector machine)
+        * For big data a small NN is better that SVM
+        * For big data a big NN is better that a medium NN is better that small NN.
+        * very large neural net:  
+            * First:we need to be able to train a big enough neural network in order to take advantage of the huge amount of data
+
+            * Second: we need to improving scale has actually taken us a long way in the world of learning in order to make this diagram a bit more technically precise and just add a few more things 
