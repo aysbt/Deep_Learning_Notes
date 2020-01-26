@@ -36,3 +36,17 @@
     * the zip code or postal code ,which is a future to tells you, walkability
     * the wealth of the neighborhood
 * With  given these input features, the job of the neural network will be to predict the price y.
+
+## Supervised Learning with Neural Networks
+
+* n supervised learning, you have some **input x**, and you want to learn a function mapping to some **output y**. In the example of housing price prediction application where the input is some features of a home and try to output or estimate the price y. 
+
+* Different types of neural networks for supervised learning which includes:
+    * CNN or convolutional neural networks (Useful in computer vision)
+    * RNN or Recurrent neural networks (Useful in Speech recognition or NLP)
+    * Standard NN (Useful for Structured data)
+    * Hybrid/custom NN or a Collection of NNs types
+
+* **Structured data** is like the databases and tables.
+* **Unstructured data** is like images, video, audio, and text.
+* Structured data gives more money because companies relies on prediction on its big data.
