@@ -14,12 +14,12 @@
 
 #### Let's now lay out some of the notation that we'll use throughout the rest of this course. 
 
-* $(x,y)$ :represent a single training example:
+* `$(x,y)$` :represent a single training example:
     * x  --> *x-dimensional feature vector*
     * y  --> *label* (either 0 or 1).
-* $m$: the number of training samples.
+* `$m$`: the number of training samples.
 
-* The training sets will be written ($x_1, y_1$): input and output for your first training example 
+* The training sets will be written (`$x_1, y_1$`): input and output for your first training example 
 * ($x_2, y_2$) for the second training example up to ($xm, ym$) which is your last training example.
 
 
