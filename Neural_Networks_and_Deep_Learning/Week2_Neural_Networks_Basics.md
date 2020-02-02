@@ -14,13 +14,13 @@
 
 #### Let's now lay out some of the notation that we'll use throughout the rest of this course. 
 
-* $(x,y)$ :represent a single training example:
+* `(x,y)` :represent a single training example:
     * x  --> *x-dimensional feature vector*
     * y  --> *label* (either 0 or 1).
 * `$m$`: the number of training samples.
 
-* The training sets will be written ($x_1, y_1$): input and output for your first training example 
-* ($x_2, y_2$) for the second training example up to ($xm, ym$) which is your last training example.
+* The training sets will be written `(x(1), y(1))`: input and output for your first training example 
+* `(x(2), y(2))` for the second training example up to `(x(m), y(m))` which is your last training example.
 
 
 \begin{equation*}
@@ -43,16 +43,16 @@ Y=
 
 * **MATRIX X**
 
-    * X set inputs $x1$, $x2$ and so on $X_m$ and stacking them in columns. 
-        * We take $x_1$ and put that as a first column of this matrix,
-        * $x_2$, put that as a second column and so on down to $x_m$, 
+    * X set inputs `x(1)`, `x(2)` and so on `x(m)` and stacking them in columns. 
+        * We take `x(1)` and put that as a first column of this matrix,
+        * `x(2)`, put that as a second column and so on down to `x(m)`, 
         
-    * Matrix X will have $m$ columns, where $m$ is the number of train examples and the number of railroads, or the height of this matrix is $n_x$. 
+    * Matrix X will have `m` columns, where `m` is the number of train examples and the number of railroads, or the height of this matrix is `n(x)`. 
     
-    * X is a nx by m dimensional matrix,**X Shape** $(n_x,m)$ 
+    * X is a n(x) by m dimensional matrix,**X Shape :** `(n(x),m)` 
 
 * **MATRIX Y**
 
-    * Y to be equal to $y_1$, $y_2$, up to $y_m$ like so. 
-    * Y here will be a 1 by m dimensional matrix. **Y Shape** $(1,m)$
+    * Y to be equal to `y(1)`, `y(2)`, up to `y(m)` like so. 
+    * Y here will be a `1` by`m` dimensional matrix. **Y Shape :** `(1,m)`
 
