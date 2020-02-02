@@ -17,13 +17,13 @@
 * `(x,y)` :represent a single training example:
     * x  --> *x-dimensional feature vector*
     * y  --> *label* (either 0 or 1).
-* `$m$`: the number of training samples.
+* `m`: the number of training samples.
 
 * The training sets will be written `(x(1), y(1))`: input and output for your first training example 
 * `(x(2), y(2))` for the second training example up to `(x(m), y(m))` which is your last training example.
 
 
-\begin{equation*}
+\begin{equation}
 X=
 \begin{bmatrix}
 \vdots & \vdots & \cdots  &  \vdots \\
@@ -31,15 +31,16 @@ X=
  ^{(m)} \\
 \vdots & \vdots & \cdots & \vdots
 \end{bmatrix}
-\end{equation*}
+\end{equation}
 
 
-\begin{equation*}
+\begin{equation}
 Y=
 \begin{bmatrix}
  y^{(1)} & y^{(2)} & \cdots & y^{(m)} \\
 \end{bmatrix}
-\end{equation*}
+\end{equation}
+
 
 * **MATRIX X**
 
